@@ -1,0 +1,35 @@
+.Dashboard {
+    width: calc(100% - 1px);
+    overflow-y: scroll;
+    height: max-content;
+    overflow-y: scroll !important;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+/*  css of cards on dashboard*/
+
+.dash_table {
+    background-color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 2px 2px 2px 2px #c9c9c9;
+}
+
+.card_1 {
+    background: linear-gradient(45deg, #0288d1, #26c6da) !important;
+    color: #fff;
+}
+
+.card_2 {
+    background: linear-gradient(45deg, #ff5252, #f48fb1) !important;
+    color: #fff;
+}
+
+.card_3 {
+    background: linear-gradient(45deg, #ff6f00, #ffca28) !important;
+    color: #fff;
+}
+
+.card_4 {
+    background: linear-gradient(45deg, #43a047, #1de9b6) !important;
+}
